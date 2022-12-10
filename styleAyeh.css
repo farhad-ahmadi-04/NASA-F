@@ -45,9 +45,6 @@ border-right: 1px solid #fff;
     visibility: visible;
 }
 
-.sub-menu{
-
-}
 
 /* fasele bede */
 .sub-menu{
@@ -69,4 +66,10 @@ border-right: 1px solid #fff;
 }
 #first-menu >ul li a{
     font-size: 19px;
+}
+.searchbox{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.548);
+    display:inline-block;
+    height: 60%;
 }
