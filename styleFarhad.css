@@ -1,0 +1,78 @@
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+/* main Start */
+#main {
+    position: relative;
+}
+
+/* main3 Start {farhad} */
+.main3-L,
+.main3-C-L,
+.main3-C-R,
+.main3-R {
+    display: inline-block;
+    width: 300px;
+    position: relative;
+    margin-right: 10px;
+}
+
+#main3 img {
+    width: 300px;
+    height: 320px;
+}
+
+#main3 span:first-of-type a:hover {
+    background-color: white;
+    color: black;
+}
+
+#main3 span:last-of-type a:hover {
+    background-color: rgba(75, 75, 220, 0.84);
+    color: rgba(255, 255, 255, 0.938);
+}
+
+#main3 span:first-of-type a {
+    color: rgba(0, 0, 0, 0.728);
+    background-color: rgba(240, 248, 255, 0.763);
+    display: block;
+    position: absolute;
+    bottom: 0;
+    font-weight: bold;
+}
+
+#main3 span:last-of-type a {
+    position: absolute;
+    bottom: 38px;
+    left: 0;
+    background-color: rgba(75, 75, 220, 0.68);
+    font-weight: bold;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.847);
+}
+
+/* main3 End {farhad} */
+
+#submit {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(80, 80, 255, 0.596);
+}
+.MORE-STORIES{
+    background-color:  rgba(80, 80, 255, 0.596);
+    border: none;
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+/* main End */
