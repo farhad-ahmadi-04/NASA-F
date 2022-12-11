@@ -56,8 +56,7 @@
 /* main3 End {farhad} */
 
 #submit {
-    margin-left: 0;
-    margin-right: 0;
+    width: 100%;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -65,14 +64,50 @@
     margin-bottom: 20px;
     background-color: rgba(80, 80, 255, 0.596);
 }
+#submit:hover{
+    background-color: rgba(80, 80, 255, 0.838) ;
+}
 .MORE-STORIES{
-    background-color:  rgba(80, 80, 255, 0.596);
+    background-color: rgba(80, 80, 255, 0.596) ;
     border: none;
     color: antiquewhite;
     font-size: 20px;
     font-weight: bold;
 }
 
-
-
 /* main End */
+
+/* foooter Start */
+#footer {
+    padding:20px 8px 38px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    width: 100%;
+ }
+
+ #footer a img {
+    width: 95px;
+    float: left;
+ }
+
+ #footer span {
+    color: #fff;
+    display: block;
+    width: 500px;
+    font-weight: bold;
+    font-size: 14px;
+ }
+
+ .footer-link a {
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 30px;
+    float: right;
+   color: rgb(93, 128, 185);
+ }
+ .footer-link a:hover{
+   text-decoration: underline;
+ }
+
+ /* footer End */
