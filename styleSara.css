@@ -1,0 +1,140 @@
+/* main Positions */
+
+#main1 {
+ position: relative;
+ background-color: rgb(9, 239, 255); 
+}
+
+.main1L {
+ background-color: darksalmon;
+ position: absolute;
+right: 50%;
+}
+
+.main1R {
+ background-color: crimson;
+position: absolute;
+left:50% ;
+position: relative;
+}
+
+.main1R-topL {
+ background-color: gold; 
+  position: absolute;
+  right: 75%;
+}
+
+.main1R-topR {
+ background-color: steelblue;
+ position: absolute;
+ right: 50%;
+ width: 370px;
+ height: 290px;
+}
+
+.main1R-bottom { 
+ background-color: rgb(220, 20, 193); 
+ position: absolute;
+ width: 50%;
+ top: 40%;
+right: 0 ;
+
+}
+
+
+/* main part1 left */
+
+/* #main1 {
+ /* background-color: blueviolet; */
+ 
+
+#main1 a span {
+  
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.589);
+  padding: 10px 18px;
+  display: block;
+}
+#main1 a {
+ text-decoration: none;
+  color: black;
+ }
+
+#main1 a :hover {
+  background-color: white
+}
+
+/* main1 left */
+
+.main1L img {
+ width: 700px;
+ position: relative;
+
+}
+
+.main1L a span{
+position: absolute;
+bottom: 4%;
+left: 1%;
+}
+
+/* .main1L a span:first-of-type {
+ position: absolute;
+ bottom: 11%;
+ left: 1%;
+ background-color: rgba(41, 86, 235, 0.726);
+ } */
+
+
+ /* main1 right */
+  /* main part1 right . top left */
+
+
+.main1R-topL img  {
+width: 350px;
+}
+
+
+/*  main part1 right . top right */
+
+.main1R-topR a {
+ color: white;
+ font-size: 11px;
+ text-decoration: none;
+ padding: 4px;  
+}
+
+.main1R-topR a:last-of-type {
+ margin-left: 100px;
+}
+
+.main1R-topR a:hover {
+ text-decoration:underline white ;
+}
+
+
+/* main part1 right . bottom */
+
+
+.main1R-bottom img {
+ width: 850px; height: 300px; 
+
+}
+
+.main1R-bottom a {
+  background-color: rgba(44, 95, 206, 0.63);
+ font-size: 19px;
+ color: rgb(255, 255, 255);
+ text-decoration: none;
+
+}
+
+.main1R-bottom a:hover { 
+  background-color: rgb(44, 95, 206);
+
+}
+
+
+
+
+
