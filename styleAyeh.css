@@ -39,7 +39,7 @@ border-right: 1px solid #fff;
     padding: 15px 6px;
 }
 #first-menu-option>li:hover{
-    background-color: #072f54;
+    background-color: #2066a8;
 }
 #first-menu-option>li:hover ul{
     visibility: visible;
@@ -51,7 +51,7 @@ border-right: 1px solid #fff;
 
 /* fasele bede */
 .sub-menu{
-   background-color: #072f54;
+   background-color: #327bbe;
     position: absolute;
     visibility: hidden;
     padding-right: 20px;
@@ -62,11 +62,40 @@ border-right: 1px solid #fff;
     padding: 0 40px;
 }
 #first-menu-option li>ul li:hover{
-    background-color: #032442;
+    background-color: #007bee;
 }
 #first-menu >ul li:last-of-type{
     border: none;
 }
 #first-menu >ul li a{
     font-size: 19px;
+}
+.inputsearch{
+    border: none;
+    background-color: rgba(190, 190, 190, 0.767);
+    height: 30px;
+    font-family:  "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-size: 15px;
+}
+.inputsearch:hover{
+box-shadow:  3px 5px  3px rgb(252, 242, 242);
+background-color: rgba(255, 255, 255, 0.863);
+}
+.search-btn{
+    border: none;
+    background-color: rgba(207, 207, 207, 0.884);
+    padding:3px 7px;
+    border-radius: 3px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.search-btn:hover{
+    box-shadow: 3px 5px 3px rgba(241, 233, 115, 0.918);
+}
+
+.share-btn{
+   width: 28px;
+   height: 28px; 
+   vertical-align: middle;
+   cursor:pointer ;
 }
