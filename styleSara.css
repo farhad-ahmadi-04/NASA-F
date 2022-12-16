@@ -1,89 +1,103 @@
-
+/* farhad start */
+.container{
+  margin: 0 auto;
+  width: 1490px;
+  position: relative;
+}
+/* farhad end */
 /* main1 Positions................................................ */
 
 #main {
-  position:absolute;
+  position: absolute;
   top: 200px;
 }
+
 .main1 {
-  background-color: rgb(9, 239, 255); 
-  position: relative; 
- }
- 
- .main1L {
+  background-color: rgb(9, 239, 255);
+  position: relative;
+}
+
+.main1L {
   /* background-color: darksalmon; */
   position: absolute;
- left: 50px;
- }
- 
- .main1R-TopL {
+  left: 50px;
+}
+
+.main1R-TopL {
   /* background-color: gold;  */
-   position: absolute;
-   left: 780px;
- }
- 
- .main1R-TopR {
+  position: absolute;
+  left: 780px;
+}
+
+.main1R-TopR {
   background-color: steelblue;
   position: absolute;
   left: 1140px;
   width: 360px;
-  height:263px ;
- }
- 
- .main1R-Bottom{ 
+  height: 263px;
+}
+
+.main1R-Bottom {
   /* background-color: rgb(220, 20, 193);  */
   position: absolute;
   left: 780px;
   top: 280px;
- }
- /* main2 positions................................................ */
- 
- #main { 
-   position: relative;
- }
-  .main2L {
-    position: absolute;
-    top: 550px;
-    left: 50px;;
-  }
- .main2M {
-   position: absolute;
-   top: 550px;
-   left: 420px;;
- }
- .main2R {
-   position: absolute;
-   top: 550px;
-   left: 1070px;
- }
- 
- 
-  /* main3 positions................................................ */
-  
-  .main3 {
-    position: relative;
-    position: absolute;
+}
+
+/* main2 positions................................................ */
+
+#main {
+  position: relative;
+}
+
+.main2L {
+  position: absolute;
+  top: 550px;
+  left: 50px;
+  ;
+}
+
+.main2M {
+  position: absolute;
+  top: 550px;
+  left: 420px;
+  ;
+}
+
+.main2R {
+  position: absolute;
+  top: 550px;
+  left: 1070px;
+}
+
+
+/* main3 positions................................................ */
+
+.main3 {
+  position: relative;
+  position: absolute;
   top: 840px;
-   }
-  .main3L1 {
- position: absolute;
- left: 50px;
-  }
- 
-  .main3L2 {
-    position: absolute ;
-    left: 420px ;
-  }
-  
-  .main3R1 {
-    position: absolute;
-    left:790px ;
-  }
- 
-  .main3R2 {
-    position: absolute;
-   left: 1150px;
-   }
+}
+
+.main3L1 {
+  position: absolute;
+  left: 50px;
+}
+
+.main3L2 {
+  position: absolute;
+  left: 420px;
+}
+
+.main3R1 {
+  position: absolute;
+  left: 790px;
+}
+
+.main3R2 {
+  position: absolute;
+  left: 1150px;
+}
 
 /* main1 left */
 
@@ -99,47 +113,50 @@
   padding: 1px;
   position: absolute;
   bottom: 9%;
-left: 0%;
+  left: 0%;
 
 }
+
 .main1L a span:hover {
   background-color: rgb(10, 103, 190)
 }
 
- .main1L a p  {
-   background-color: rgba(255, 255, 255, 0.815);
+.main1L a p {
+  background-color: rgba(255, 255, 255, 0.815);
   font-size: 18px;
   padding: 1px 73px 1px 0px;
   position: absolute;
   bottom: 0%;
-left: 0%;
+  left: 0%;
 }
+
 .main1L a p:hover {
   background-color: white
 }
 
 
 .main1L img {
- width: 700px;
- position: relative;
+  width: 700px;
+  position: relative;
 }
 
 
-  /* main1 right . top left */
+/* main1 right . top left */
 
-.main1R-TopL img  {
-width: 350px;
-position: relative;
+.main1R-TopL img {
+  width: 350px;
+  position: relative;
 }
 
-.main1R-TopL a p  {
+.main1R-TopL a p {
   background-color: rgba(255, 255, 255, 0.815);
- font-size: 15px;
- padding: 1px 5px 1px 0px;
- position: absolute;
- bottom: 0%;
-left: 0%;
+  font-size: 15px;
+  padding: 1px 5px 1px 0px;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
 }
+
 .main1R-TopL a p:hover {
   background-color: white
 }
@@ -148,16 +165,18 @@ left: 0%;
 /*  main1 right . top right */
 
 .main1R-TopR a {
- color: white;
- font-size: 11px;
- text-decoration: none;
- vertical-align: top;
- margin-left: 10px;
- display: inline-block;
+  color: white;
+  font-size: 11px;
+  text-decoration: none;
+  vertical-align: top;
+  margin-left: 10px;
+  display: inline-block;
 }
+
 .main1R-TopR a:hover {
- text-decoration:underline white ;
+  text-decoration: underline white;
 }
+
 .main1R-TopR a:last-of-type {
   margin-left: 90px;
 }
@@ -165,7 +184,7 @@ left: 0%;
 .main1R-TopR span {
   color: white;
   font-size: 11px;
- margin-left: 10px;
+  margin-left: 10px;
 }
 
 .main1R-TopR hr {
@@ -178,8 +197,9 @@ left: 0%;
 
 
 .main1R-Bottom img {
- width: 715px; height: 245px; 
- position: relative;
+  width: 715px;
+  height: 245px;
+  position: relative;
 }
 
 .main1R-Bottom a span {
@@ -189,112 +209,125 @@ left: 0%;
   padding: 1px;
   position: absolute;
   bottom: 18%;
-left: 0%;
+  left: 0%;
 }
-.main1R-Bottom a span:hover { 
+
+.main1R-Bottom a span:hover {
   background-color: rgb(10, 103, 190)
 }
 
-.main1R-Bottom a p { background-color: rgba(255, 255, 255, 0.815);
+.main1R-Bottom a p {
+  background-color: rgba(255, 255, 255, 0.815);
   font-size: 18px;
   padding: 1px 286px 1px 0px;
- position: absolute;
- bottom: 0%;
- left: 0%;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
 }
+
 .main1R-Bottom a p:hover {
   background-color: white
 }
 
 
 
- /* main2 left */
+/* main2 left */
 
 
- .main2 a {
+.main2 a {
   text-decoration: none;
   color: black;
 }
 
 .main2L img {
-width: 350px;
-position: relative;
+  width: 350px;
+  position: relative;
 }
 
-.main2L a p { background-color: rgba(255, 255, 255, 0.815);
+.main2L a p {
+  background-color: rgba(255, 255, 255, 0.815);
   font-size: 18px;
   padding: 1px 85px 1px 0px;
- position: absolute;
- bottom: 0%;
- left: 0%;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
 }
+
 .main2L a p:hover {
   background-color: white
 }
 
- /* main2 middle */
+/* main2 middle */
 
- .main2M img {
+.main2M img {
   width: 630px;
   height: 263px;
   position: relative;
-  }
-  
-  .main2M a span {
-    background-color: rgba(5, 120, 252, 0.589);
-    color: #fff;
-    font-size: 18px;
-    padding: 1px;
-    position: absolute;
-    bottom: 17%;
+}
+
+.main2M a span {
+  background-color: rgba(5, 120, 252, 0.589);
+  color: #fff;
+  font-size: 18px;
+  padding: 1px;
+  position: absolute;
+  bottom: 17%;
   left: 0%;
-  }
-  .main2M a span:hover { 
-    background-color: rgb(10, 103, 190)
-  }
+}
 
-  .main2M a p { background-color: rgba(255, 255, 255, 0.815);
-    font-size: 18px;
-    padding: 1px 43px 1px 0px;
-   position: absolute;
-   bottom: 0%;
-   left: 0%;
-  }
-  .main2M a p:hover {
-    background-color: white
-  }
- 
- /* main2 right */
+.main2M a span:hover {
+  background-color: rgb(10, 103, 190)
+}
 
- .main2R img {
+.main2M a p {
+  background-color: rgba(255, 255, 255, 0.815);
+  font-size: 18px;
+  padding: 1px 43px 1px 0px;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
+
+.main2M a p:hover {
+  background-color: white
+}
+
+/* main2 right */
+
+.main2R img {
   width: 430px;
   height: 260px;
   position: relative;
- }
- .main2R a span {
+}
+
+.main2R a span {
   background-color: rgba(5, 120, 252, 0.589);
   color: #fff;
   font-size: 16px;
   padding: 1px;
   position: absolute;
   bottom: 24%;
-left: 0%;
+  left: 0%;
 }
+
 .main2R a p:hover {
   background-color: white
 }
 
-.main2R a span:hover { 
+.main2R a span:hover {
   background-color: rgb(10, 103, 190)
 }
-.main2R a p { background-color: rgba(255, 255, 255, 0.815);
+
+.main2R a p {
+  background-color: rgba(255, 255, 255, 0.815);
   font-size: 16px;
   padding: 1px 10px 1px 0px;
- position: absolute;
- bottom: 0%;
- left: 0%; }
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
 
- 
+
 
 /* main3 */
 
@@ -303,51 +336,105 @@ left: 0%;
   color: black;
 }
 
-  .main3 img {
-    width: 350px;
-    height:220px;
-     position: relative;}
-    
-    
-     .main3 a span {
-      background-color: rgba(5, 120, 252, 0.589);
-      color: #fff;
-      font-size: 16px;
-      padding: 1px;
-      position: absolute;
-      bottom: 32%;
-    left: 0%;
-    }
-    .main3 a span:hover { 
-      background-color: rgb(10, 103, 190)
-    }
-    
-    .main3 a p { background-color: rgba(255, 255, 255, 0.815);
-      font-size: 16px;
-      padding: 5px 10px 5px 5px;
-     position: absolute;
-     bottom: 0%;
-     left: 0%; 
-    }
-    .main3 a p:hover {
-      background-color: white
-    }
+.main3 img {
+  width: 350px;
+  height: 220px;
+  position: relative;
+}
 
 
- /* main3 left1 */
+.main3 a span {
+  background-color: rgba(5, 120, 252, 0.589);
+  color: #fff;
+  font-size: 16px;
+  padding: 1px;
+  position: absolute;
+  bottom: 32%;
+  left: 0%;
+}
 
- .main3L1 a span {
+.main3 a span:hover {
+  background-color: rgb(10, 103, 190)
+}
+
+.main3 a p {
+  background-color: rgba(255, 255, 255, 0.815);
+  font-size: 16px;
+  padding: 5px 10px 5px 5px;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
+
+.main3 a p:hover {
+  background-color: white
+}
+
+
+/* main3 left1 */
+
+.main3L1 a span {
   position: absolute;
   bottom: 22%;
-left: 0%;
+  left: 0%;
 }
 
 .main3L1 a p {
-  padding-right: 30px ;
+  padding-right: 30px;
 }
 
+/* ................................................................................... */
+/* farhad start */
+.more-stories{
+  background-color: rgba(64, 64, 207, 0.658);
+  position: absolute;
+  top: 1090px;
+  width: 99%;
+  padding: 13px;
+  color: rgba(255, 255, 255, 0.84);
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 38px;
+}
+.more-stories:hover{
+  background-color: rgb(104, 104, 177);
+  color: rgba(255, 255, 255, 0.84);
+}
+/* foooter Start */
+#footer {
+  padding: 20px 8px 0 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  position: absolute;
+  top: 1480px;
+  margin-left: 10px;
+}
 
+#footer a img {
+  width: 95px;
+  float: left;
+}
 
+#footer span {
+  color: #fff;
+  display: block;
+  width: 500px;
+  font-weight: bold;
+  font-size: 14px;
+}
 
+.footer-link a {
+  text-align: right;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 30px;
+  float: right;
+  color: rgb(93, 128, 185);
+}
 
+.footer-link a:hover {
+  text-decoration: underline;
+}
 
+/* footer End */
+/* farhad end */
