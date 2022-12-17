@@ -136,4 +136,86 @@ background-color: rgba(255, 255, 255, 0.863);
     }
     
     }
- 
+    #links{
+        text-decoration: none;
+        color: rgb(241, 241, 241);
+        background-color: rgba(190, 190, 190, 0.767);
+        padding: 6px 10px;
+        display: inline;
+        text-align: center;
+        font-size: 12px;
+   
+        margin: 200px;
+    }
+    .link1{
+        
+        border-right: 1px solid #fff;
+        
+        padding: 4px 6px;
+        font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+        
+    }
+    .link2{
+        
+        border-right: 1px solid #fff;
+        
+        padding: 4px 6px;
+       font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+       
+    }
+    .link3{
+        
+        border-right: 1px solid #fff;
+        
+        padding: 4px 6px;
+       font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+       
+    }
+    .link4{
+        
+        border-right: 1px solid #fff;
+        
+        padding: 4px 6px;
+       font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+       
+    }
+    .link5{
+        
+        border-right: 1px solid #fff;
+        
+        padding: 4px 6px;
+       font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    
+    }
+    .link6{
+        
+        border-right: 1px solid #fff;
+        
+        padding: 4px 6px;
+       font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+       
+    }
+    .link7{
+        
+        border-right: 1px solid #fff;
+        
+        padding: 4px 6px;
+       font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+       
+    }
+    .link8{
+        
+        border-right: 1px solid #fff;
+        
+        padding: 4px 6px;
+       font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+       
+    }
+    .link9{
+     
+        
+        
+        padding: 4px 6px;
+       font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+       
+    }
