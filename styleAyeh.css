@@ -73,6 +73,7 @@ border-right: 1px solid #fff;
     height: 30px;
     font-family:  "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
     font-size: 15px;
+    position: relative;
 }
 .inputsearch:hover{
 box-shadow:  3px 5px  3px rgb(252, 242, 242);
