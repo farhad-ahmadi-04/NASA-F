@@ -144,7 +144,7 @@ background-color: rgba(255, 255, 255, 0.863);
         display: inline;
         text-align: center;
         font-size: 12px;
-   
+        font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
         margin: 200px;
     }
     .link1{
