@@ -39,11 +39,7 @@ border-right: 1px solid #fff;
     padding: 15px 6px;
 }
 #first-menu-option>li:hover{
-<<<<<<< HEAD
     background-color: #1e5283;
-=======
-    background-color: #2066a8;
->>>>>>> d0030ca3ef8a664b1389ded1393c45d9efec530f
 }
 #first-menu-option>li:hover ul{
     visibility: visible;
@@ -52,11 +48,7 @@ border-right: 1px solid #fff;
 
 /* fasele bede */
 .sub-menu{
-<<<<<<< HEAD
    background-color: #0c60af;
-=======
-   background-color: #327bbe;
->>>>>>> d0030ca3ef8a664b1389ded1393c45d9efec530f
     position: absolute;
     visibility: hidden;
     padding-right: 20px;
@@ -67,11 +59,7 @@ border-right: 1px solid #fff;
     padding: 0 40px;
 }
 #first-menu-option li>ul li:hover{
-<<<<<<< HEAD
     background-color: #1f6bb3;
-=======
-    background-color: #007bee;
->>>>>>> d0030ca3ef8a664b1389ded1393c45d9efec530f
 }
 #first-menu >ul li:last-of-type{
     border: none;
@@ -85,10 +73,7 @@ border-right: 1px solid #fff;
     height: 30px;
     font-family:  "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
     font-size: 15px;
-<<<<<<< HEAD
     position: relative;
-=======
->>>>>>> d0030ca3ef8a664b1389ded1393c45d9efec530f
 }
 .inputsearch:hover{
 box-shadow:  3px 5px  3px rgb(252, 242, 242);
@@ -101,13 +86,28 @@ background-color: rgba(255, 255, 255, 0.863);
     border-radius: 3px;
     vertical-align: middle;
     cursor: pointer;
-<<<<<<< HEAD
     position: relative;
-=======
->>>>>>> d0030ca3ef8a664b1389ded1393c45d9efec530f
 }
 .search-btn:hover{
     box-shadow: 3px 5px 3px rgba(241, 233, 115, 0.918);
+       
+    animation: jump 0.8s ease-in infinite;
+}
+
+@keyframes jump{   
+     0%, 60%{
+    transform: translate3d(0,0,0) scaleY(1);
+}
+30%{
+    transform: translate3d(0,-8px,0) scaleY(1);
+}
+    75%{
+        transform: translate3d(0,3px,0) scaleY(1.5);
+}
+100%{
+    transform: translate3d(0,0,0) scaleY(2);
+}
+
 }
 
 .share-btn{
@@ -116,3 +116,24 @@ background-color: rgba(255, 255, 255, 0.863);
    vertical-align: middle;
    cursor:pointer ;
 }
+.share-btn:hover{
+    
+        animation: jump 0.6s ease-in-out infinite;
+    }
+    
+    @keyframes jump{   
+         0%, 60%{
+        transform: translate3d(0,0,0) scaleY(1);
+    }
+    30%{
+        transform: translate3d(0,-8px,0) scaleY(1);
+    }
+        75%{
+            transform: translate3d(0,3px,0) scaleY(0.5);
+    }
+    100%{
+        transform: translate3d(0,0,0) scaleY(1);
+    }
+    
+    }
+ 
