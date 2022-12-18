@@ -139,7 +139,7 @@ background-color: rgba(255, 255, 255, 0.863);
     #links{
         text-decoration: none;
         color: rgb(241, 241, 241);
-        background-color: rgba(190, 190, 190, 0.767);
+        background-color: rgba(138, 138, 138, 0.548);
         padding: 6px 10px;
         display: inline;
         text-align: center;
@@ -219,3 +219,34 @@ background-color: rgba(255, 255, 255, 0.863);
        font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
        
     }
+  .link1 a:hover{
+    background-color: rgba(255, 255, 255, 0.500);
+   }
+   .link2 a:hover{
+    background-color: rgba(255, 255, 255, 0.500);
+   }
+   .link3 a:hover{
+    background-color: rgba(255, 255, 255, 0.500);
+   }
+   .link4 a:hover{
+    background-color: rgba(255, 255, 255, 0.500);
+   }
+   .link5 a:hover{
+    background-color: rgba(255, 255, 255, 0.500);
+   }
+   .link6a:hover{
+    background-color: rgba(255, 255, 255, 0.500);
+   }
+   .link7 a:hover{
+    background-color: rgba(255, 255, 255, 0.500);
+   }
+   .link8 a:hover{
+    background-color:  rgba(255, 255, 255, 0.500);
+   }
+   .link9 a:hover{
+    background-color: rgb(255, 255, 255);
+   }
+   #links a:hover{
+    background-color: gray;
+   }
+ 
