@@ -1,15 +1,16 @@
 /* farhad start */
-.container{
+.container {
   margin: 0 auto;
   width: 1490px;
   position: relative;
 }
+
 /* farhad end */
 /* main1 Positions................................................ */
 
 #main {
   position: absolute;
-  top: 200px;
+  top: 10px;
 }
 
 .main1 {
@@ -229,10 +230,10 @@
   background-color: white
 }
 
-#searchbox{
+#searchbox {
   border: none;
   background-color: rgba(255, 255, 255, 0.548);
-  display:inline-block;
+  display: inline-block;
   height: 60%;
 }
 
@@ -390,7 +391,7 @@
 
 /* ................................................................................... */
 /* farhad start */
-.more-stories{
+.more-stories {
   background-color: rgba(64, 64, 207, 0.658);
   position: absolute;
   top: 1090px;
@@ -401,17 +402,19 @@
   font-weight: 600;
   margin-left: 38px;
 }
-.more-stories:hover{
+
+.more-stories:hover {
   background-color: rgb(104, 104, 177);
   color: rgba(255, 255, 255, 0.84);
 }
+
 /* foooter Start */
 #footer {
   padding: 20px 8px 0 8px;
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
   position: absolute;
-  top: 1480px;
+  top: 1300px;
   margin-left: 10px;
 }
 
