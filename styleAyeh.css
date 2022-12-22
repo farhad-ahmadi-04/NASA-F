@@ -69,7 +69,7 @@ border-right: 1px solid #fff;
 }
 .inputsearch{
     border: none;
-    background-color: rgba(190, 190, 190, 0.767);
+    background-color:#b2b2b210;
     height: 30px;
     font-family:  "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
     font-size: 15px;
@@ -79,7 +79,7 @@ border-right: 1px solid #fff;
 
 .search-btn{
     border: none;
-    background-color: rgba(190, 190, 190, 0.767);
+    background-color: #b2b2b210;
     padding:4px 10px;
    
     vertical-align: middle;
@@ -208,6 +208,3 @@ border-right: 1px solid #fff;
    #links a:hover{
     background-color: gray;
    }
- #searchbox{
-
- }
