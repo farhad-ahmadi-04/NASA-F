@@ -1,9 +1,10 @@
 #containerMain {
   width: 1400px;
-  height: 1300px;
+  height: 1240px;
   margin: 0 auto;
   background-color: rgb(155, 83, 83);
   position: relative;
+  text-align: center;
 }
 
 .main div {
@@ -163,6 +164,48 @@
 .main1-R-bottom a:last-of-type:hover{
   background-color: rgba(64, 64, 216, 0.861);
 }
+
+/* main2............................................... */
+
+.main2 div {
+display: inline-block;
+}
+.main2L img {
+ width: 400px; 
+ position: relative;
+}
+.main2M img {
+width: 550px;
+height: 300px;
+position: relative;
+}
+
+.main2R img {
+  width: 380px;
+  height: 300px;
+  position: relative;
+}
+
+/* main3............................................... */
+
+.main3 {
+  margin-top: 15px;
+}
+
+.main3L1 img,
+.main3L2 img,
+.main3R2 img,
+.main3R1 img {
+  position: relative;
+  width: 331px;
+  height: 231px;
+}
+
+
+
+
+
+
 /* ................................................................................... */
 /* farhad start */
 .more-stories {
