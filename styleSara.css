@@ -1,11 +1,18 @@
-#containerMain {
+.container {
   width: 1400px;
-  height: 1240px;
+  height: 1800px;
   margin: 0 auto;
   background-color: rgb(155, 83, 83);
   position: relative;
-  text-align: center;
 }
+
+/* #containerMain {
+  width: 1400px;
+  height: 1500px;
+  margin: 0 auto;
+  background-color: rgb(155, 83, 83);
+  position: relative;
+} */
 
 .main div {
   display: inline-block;
@@ -15,18 +22,18 @@
 .main1-L,
 .main1-top-L,
 .main1-top-R,
-.main1-R-bottom  {
+.main1-R-bottom {
   position: relative;
   margin-right: 15px;
   margin-bottom: 15px;
 }
 
 .main1-L a img {
-  width: 670px;
+  width: 685px;
   height: 610px;
 }
 
-.main1-L a span{
+.main1-L a span {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -50,18 +57,21 @@
   font-weight: bold;
   font-size: 17px;
 }
-.main1-L a span:hover{
+
+.main1-L a span:hover {
   background-color: rgba(255, 255, 255, 0.941);
 }
-.main1-L a:last-of-type:hover{
+
+.main1-L a:last-of-type:hover {
   background-color: rgba(64, 64, 216, 0.861);
 }
+
 .main1-top-L a img {
   width: 330px;
   height: 300px;
 }
 
-.main1-top-L a span{
+.main1-top-L a span {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -72,7 +82,8 @@
   font-size: 19px;
   font-weight: bold;
 }
-.main1-top-L a span:hover{
+
+.main1-top-L a span:hover {
   background-color: rgba(255, 255, 255, 0.941);
 }
 
@@ -129,7 +140,7 @@
 }
 
 .main1-R-bottom {
-  margin-left: 49.2%;
+  margin-left: 50.3%;
   margin-top: -22.1%;
 }
 
@@ -158,56 +169,282 @@
   padding: 9px;
   font-weight: bold;
 }
-.main1-R-bottom a span:hover{
+
+.main1-R-bottom a span:hover {
   background-color: rgba(255, 255, 255, 0.941);
 }
-.main1-R-bottom a:last-of-type:hover{
+
+.main1-R-bottom a:last-of-type:hover {
   background-color: rgba(64, 64, 216, 0.861);
 }
 
 /* main2............................................... */
 
 .main2 div {
-display: inline-block;
+  display: inline-block;
+  position: relative;
+  margin-right: 15px;
 }
+
 .main2L img {
- width: 400px; 
- position: relative;
+  width: 325px;
+  height: 300px;
 }
+
+.main2L a span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.822);
+  padding: 13px;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main2L a span:hover {
+  background-color: rgba(255, 255, 255, 0.941);
+}
+
 .main2M img {
-width: 550px;
-height: 300px;
-position: relative;
+  width: 670px;
+  height: 300px;
+}
+
+.main2M a span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.822);
+  padding: 13px;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main2M a span:hover {
+  background-color: rgba(255, 255, 255, 0.941);
+}
+
+.main2M a:last-of-type {
+  position: absolute;
+  left: 0;
+  bottom: 70px;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(64, 64, 216, 0.685);
+  padding: 9px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.main2M a:last-of-type:hover {
+  background-color: rgba(64, 64, 216, 0.861);
+}
+
+.main2R {
+  width: 325px;
+  height: 304px;
 }
 
 .main2R img {
-  width: 380px;
-  height: 300px;
+  width: 100%;
+  height: 100%;
   position: relative;
+}
+
+.main2R a span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.822);
+  padding: 13px;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main2R a span:hover {
+  background-color: rgba(255, 255, 255, 0.941);
+}
+
+.main2R a:last-of-type {
+  position: absolute;
+  left: 0;
+  bottom: 92px;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(64, 64, 216, 0.685);
+  padding: 9px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.main2R a:last-of-type:hover {
+  background-color: rgba(64, 64, 216, 0.861);
 }
 
 /* main3............................................... */
 
-.main3 {
-  margin-top: 15px;
+.main3 div {
+  margin-right: 15px;
+  margin-top: 20px;
 }
 
-.main3L1 img,
-.main3L2 img,
-.main3R2 img,
-.main3R1 img {
+.main3L1,
+.main3L2,
+.main3R2,
+.main3R1 {
   position: relative;
-  width: 331px;
-  height: 231px;
+  width: 325px;
+  height: 300px;
 }
 
+.main3 img {
+  width: 100%;
+  height: 100%;
+}
 
+.main3L1 a span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.822);
+  padding: 13px;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
 
+.main3L1 a span:hover {
+  background-color: rgba(255, 255, 255, 0.941);
+}
 
+.main3L1 a:last-of-type {
+  position: absolute;
+  left: 0;
+  bottom: 69px;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(64, 64, 216, 0.685);
+  padding: 9px;
+  font-weight: bold;
+  font-size: 17px;
+}
 
+.main3L1 a:last-of-type:hover {
+  background-color: rgba(64, 64, 216, 0.861);
+}
+
+.main3L2 a span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.822);
+  padding: 13px;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main3L2 a span:hover {
+  background-color: rgba(255, 255, 255, 0.941);
+}
+
+.main3L2 a:last-of-type {
+  position: absolute;
+  left: 0;
+  bottom: 92px;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(64, 64, 216, 0.685);
+  padding: 9px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.main3L2 a:last-of-type:hover {
+  background-color: rgba(64, 64, 216, 0.861);
+}
+
+.main3R1 a span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.822);
+  padding: 13px;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main3R1 a span:hover {
+  background-color: rgba(255, 255, 255, 0.941);
+}
+
+.main3R1 a:last-of-type {
+  position: absolute;
+  left: 0;
+  bottom: 92px;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(64, 64, 216, 0.685);
+  padding: 9px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.main3R1 a:last-of-type:hover {
+  background-color: rgba(64, 64, 216, 0.861);
+}
+
+.main3R2 a span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.822);
+  padding: 13px;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main3R2 a span:hover {
+  background-color: rgba(255, 255, 255, 0.941);
+}
+
+.main3R2 a:last-of-type {
+  position: absolute;
+  left: 0;
+  bottom: 92px;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(64, 64, 216, 0.685);
+  padding: 9px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.main3R2 a:last-of-type:hover {
+  background-color: rgba(64, 64, 216, 0.861);
+}
 
 /* ................................................................................... */
-/* farhad start */
+
 .more-stories {
   background-color: rgba(64, 64, 207, 0.658);
   position: absolute;
@@ -229,18 +466,17 @@ position: relative;
 #footer {
   padding: 20px 8px 0 8px;
   font-family: Arial, Helvetica, sans-serif;
-  width: 100%;
-  position: absolute;
-  top: 1300px;
-  margin-left: 10px;
+  width: 1350px;
+  position: relative;
 }
 
-#footer img {
+.footer-L a img {
   width: 95px;
   float: left;
 }
 
-#footer span {
+.footer-L span {
+  display: inline-block;
   color: #fff;
   display: block;
   width: 500px;
@@ -249,17 +485,14 @@ position: relative;
 }
 
 .footer-link a {
-  text-align: right;
+  float: right;
   font-size: 14px;
   font-weight: bold;
   margin-left: 30px;
-  float: right;
   color: rgb(93, 128, 185);
 }
 
 .footer-link a:hover {
   text-decoration: underline;
 }
-
 /* footer End */
-/* farhad end */
