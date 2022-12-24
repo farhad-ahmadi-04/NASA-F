@@ -11,7 +11,7 @@ ul {
     list-style: none;
 }
 #header{
-    position: relative;
+    
     background-image: url(img/back-header.jpg);
     padding-bottom: 20px;
 }
@@ -37,15 +37,48 @@ margin-left: 20px;
     position: relative;
 border-right: 1px solid #fff;
     padding: 15px 6px;
+    visibility: inherit;
+}
+.submenu-Missions{
+visibility: hidden;
+
+}
+.submenu-Missions{
+   list-style: none;
+   overflow: 0;
+    }
+.submenu-Galleries{
+    visibility: hidden;
+}
+.submenu-FOLLOW-NASA{
+    visibility: hidden;
+}
+.submenu-DOWANLODS{
+    visibility: hidden;
+}
+.submenu-About{
+    visibility: hidden;
+}
+.submenu-NASA-Audiences{
+    visibility: hidden;
+}
+#first-menu{
+    display:inline-block;
 }
 #first-menu-option>li:hover{
     background-color: #1e5283;
+    
 }
 #first-menu-option>li:hover ul{
     visibility: visible;
 }
-
-
+.menu1{
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+}
+.container::first-menu{
+display: inline-block;
+}
 /* fasele bede */
 .sub-menu{
    background-color: #0c60af;
@@ -66,6 +99,11 @@ border-right: 1px solid #fff;
 }
 #first-menu >ul li a{
     font-size: 19px;
+}
+#header{
+    display:inline-block;
+    list-style-type: none;
+    
 }
 .inputsearch{
     border: none;
