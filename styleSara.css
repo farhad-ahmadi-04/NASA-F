@@ -6,19 +6,12 @@
   position: relative;
 }
 
-/* #containerMain {
-  width: 1400px;
-  height: 1500px;
-  margin: 0 auto;
-  background-color: rgb(155, 83, 83);
-  position: relative;
-} */
 
 .main div {
   display: inline-block;
   vertical-align: top;
 }
-
+/* main1..................... */
 .main1-L,
 .main1-top-L,
 .main1-top-R,
@@ -372,11 +365,9 @@
   font-weight: bold;
   font-size: 17px;
 }
-
 .main3L2 a:last-of-type:hover {
   background-color: rgba(64, 64, 216, 0.861);
 }
-
 .main3R1 a span {
   position: absolute;
   bottom: 0;
@@ -462,6 +453,22 @@
   color: rgba(255, 255, 255, 0.84);
 }
 
+#more-stories{
+  display: block;
+  margin-top: 30px;
+}
+#more-stories input{
+  width: 1360px;
+  padding: 20px;
+  background-color: rgb(67, 67, 234);
+  color: #fff;
+  font-size: 27px;
+  font-weight: bold;
+  border: none;
+}
+#more-stories input:hover{
+  background-color: rgb(94, 94, 236);
+}
 /* foooter Start */
 #footer {
   padding: 20px 8px 0 8px;
@@ -474,16 +481,18 @@
   width: 95px;
   float: left;
 }
-
+.footer-L{
+  padding: 20px 0 30px 0;
+}
 .footer-L span {
-  display: inline-block;
   color: #fff;
   display: block;
-  width: 500px;
   font-weight: bold;
   font-size: 14px;
 }
-
+.footer-link{
+  padding: 30px 0 20px 0;
+}
 .footer-link a {
   float: right;
   font-size: 14px;
