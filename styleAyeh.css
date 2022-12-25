@@ -132,7 +132,11 @@ display: inline-block;
     display: inline-block;
 }
 #header{
+    vertical-align: middle;
+}
+#header input{
     display:inline-block;
+    outline: none;
 }
 #searchbox{
 float: right;
@@ -147,10 +151,14 @@ float: right;
     width: 120px;
     float: right;
 }
+#searchbox:nth-of-type(2){
+background-color: gray;
+
+}
 
 .search-btn{
     border: none;
-    background-color: #b2b2b210;
+  
     padding:4px 10px;
    
     vertical-align: middle;
@@ -169,8 +177,8 @@ float: right;
     #links{
         text-decoration: none;
         color: rgb(241, 241, 241);
-        background-color: rgba(138, 138, 138, 0.548);
-        padding: 6px 10px;
+        background-color: rgba(138, 138, 138, 0.445);
+        padding: 10px 15px;
         display: inline;
         text-align: center;
         font-size: 12px;
@@ -180,7 +188,7 @@ float: right;
     .link1{
         
         border-right: 1px solid #fff;
-        
+    
         padding: 4px 6px;
         font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
         
@@ -188,7 +196,7 @@ float: right;
     .link2{
         
         border-right: 1px solid #fff;
-        
+   
         padding: 4px 6px;
        font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
        
@@ -196,7 +204,7 @@ float: right;
     .link3{
         
         border-right: 1px solid #fff;
-        
+
         padding: 4px 6px;
        font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
        
@@ -204,7 +212,7 @@ float: right;
     .link4{
         
         border-right: 1px solid #fff;
-        
+
         padding: 4px 6px;
        font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
        
@@ -212,7 +220,7 @@ float: right;
     .link5{
         
         border-right: 1px solid #fff;
-        
+
         padding: 4px 6px;
        font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
     
@@ -220,7 +228,7 @@ float: right;
     .link6{
         
         border-right: 1px solid #fff;
-        
+     
         padding: 4px 6px;
        font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
        
@@ -228,7 +236,7 @@ float: right;
     .link7{
         
         border-right: 1px solid #fff;
-        
+     
         padding: 4px 6px;
        font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
        
@@ -236,13 +244,13 @@ float: right;
     .link8{
         
         border-right: 1px solid #fff;
-        
+  
         padding: 4px 6px;
        font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
        
     }
     .link9{
-     
+      
         
         
         padding: 4px 6px;
@@ -250,32 +258,54 @@ float: right;
        
     }
   .link1 a:hover{
-    background-color: rgba(255, 255, 255, 0.500);
+    background-color: rgba(255, 255, 255, 0.349);
+    padding:20px 15px;
    }
    .link2 a:hover{
-    background-color: rgba(255, 255, 255, 0.500);
+    background-color: rgba(255, 255, 255, 0.349);
+    padding:20px 15px;
    }
    .link3 a:hover{
-    background-color: rgba(255, 255, 255, 0.500);
+    background-color: rgba(255, 255, 255, 0.349);
+    padding:20px 15px;
    }
    .link4 a:hover{
-    background-color: rgba(255, 255, 255, 0.500);
+    background-color: rgba(255, 255, 255, 0.349);
+    padding:20px 15px;
    }
    .link5 a:hover{
-    background-color: rgba(255, 255, 255, 0.500);
+    background-color:rgba(255, 255, 255, 0.349);
+    padding:20px 15px;
    }
    .link6a:hover{
-    background-color: rgba(255, 255, 255, 0.500);
+    background-color:rgba(255, 255, 255, 0.349);
+    padding:20px 15px;
    }
    .link7 a:hover{
-    background-color: rgba(255, 255, 255, 0.500);
+    background-color: rgba(255, 255, 255, 0.349);
+    padding:20px 15px;
    }
    .link8 a:hover{
-    background-color:  rgba(255, 255, 255, 0.500);
+    background-color:  rgba(255, 255, 255, 0.349);
+    padding:20px 15px;
    }
    .link9 a:hover{
     background-color: rgb(255, 255, 255);
+    padding:20px 15px;
    }
    #links a:hover{
     background-color: gray;
    }
+   .searcher{
+    background-color: rgba(128, 128, 128, 0.459);
+    padding:8.3px 1px;
+    vertical-align: middle;
+
+   }
+   .searcher input{
+width: 35%;
+margin-top:12px ;
+   }
+   .searcher svg:last-of-type{
+    margin-top: 14;
+       }
