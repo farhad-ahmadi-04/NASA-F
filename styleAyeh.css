@@ -1,281 +1,150 @@
 body{
     background-color: #000;
-    margin: 0;
+    margin: 0px;
     font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 }
-a{
-text-decoration: none;
-color: #fff;
-}
-ul {
-    list-style: none;
-}
-#header{
-    justify-content:center;
+
+
+/* header */
+header {
     background-image: url(img/back-header.jpg);
-    padding-bottom: 20px;
-}
-#header img:first-of-type{
-display: inline-block;
-margin-top: 20px;
-margin-left: 20px;
-}
-
-/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
-#first-menu{
-    /* background-color: aquamarine; */
+    width: 1400px;
+    height: 160px ;
     margin: 0 auto;
-    position: absolute;
-    padding: 0;
-    top: 5px;
-    left: 14%;
-
-} 
-
-/* hover bede */
-#first-menu-option>li{
+  }
+  header div {
     display: inline-block;
-    position: relative;
-    border-right: 1px solid #fff;
-    padding: 15px 6px;
-    visibility: inherit;
-}
-.submenu-Missions{
-visibility: hidden;
-
-}
-.submenu-Missions li{
-   display: none;
-    
+  }
+  
+  .nasaLogo {
+    width: 160px;
+    text-align: center;
+    /* background-color: violet; */
+   
+  }
+  
+  
+  /* header menu....................................................... */
+  
+  .menu {
+     /* background-color: yellowgreen;   */
+    width: 960px;
+  }
+  .menu a {
+    text-decoration: none; 
+    color:white ;
+   }
+   .menu ul { 
+    padding-left: 0px;
+   list-style: none;
+  }
+  .menuTop>li,
+   .menuBottom>li
+   {
+     display:inline-block ; 
+     border-right: 2px solid rgb(92, 91, 91);
+   }
+  
+  /* header menuTop............................................. */
+  
+  .menuTop {
+    /* background-color: thistle; */
+    width: 1000px;
+  }
+  .menuTop a {
+    padding: 24px 12px ; 
+    font-size: 18px; 
+  }
+   .menuTop>li:hover a{
+     background-color: rgb(25, 79, 179);
+   }
+   .menuTop>li:last-of-type {
+     border: none;
+   }
+   
+  
+  /* header menu li .................................................*/
+  
+  .menuTop>li:hover ul{
+    visibility: visible;
+    background-color: rgb(25, 79, 179);
+    margin-right: 0px;
+  }
+    .submenu-Missions {
+      visibility: hidden;
+    } 
+    .submenu-Missions li {
+      padding: 1px 10px ;
+      vertical-align: middle;
     }
-.submenu-Missions li:hover{
-    visibility: visible;
-}
-
-.submenu-Galleries{
-    visibility: hidden;
-}
-.submenu-Galleries li{
-    display: none;
-}
-.submenu-FOLLOW-NASA{
-    visibility: hidden;
-}
-.submenu-FOLLOW-NASA li{
-    display: none;
-}
-.submenu-DOWANLODS{
-    visibility: hidden;
-}
-.submenu-DOWANLODS li{
-    display: none;
-}
-
-.submenu-About{
-    visibility: hidden;
-}
-.submenu-About li{
-    display: none;
-}
-.submenu-NASA-Audiences{
-    visibility: hidden;
-}
-.submenu-NASA-Audiences li{
-    display: none;
-}
-#first-menu{
-    display:inline-block;
-}
-#first-menu-option>li:hover{
-    background-color: #1e5283;
+    .submenu-Missions a {
+      font-size: 12px;
+      padding: 0px;
+    }
+    .submenu-Missions hr {
+      margin: 0px;
+    }
+    .submenu-Missions li:hover,
+    .submenu-Missions li:hover a 
+     {
+      background-color: rgb(5, 44, 172);
+    }
+    .submenu-Missions li:first-of-type {
+      margin-top: 20px;
+    }
+  
     
-}
-#first-menu-option>li:hover ul{
-    visibility: visible;
-}
-.menu1{
-    display: inline-block;
-}
-.container::first-menu{
-display: inline-block;
-}
-.menu1-searchbox{
-   
-   padding-right: 200px;
-   display: inline-block;
-   position: relative;
-   top:0px ;
-   right: 10px;
-}
-/* fasele bede */
-.sub-menu{
-   background-color: #0c60af;
-    position: absolute;
-    visibility: hidden;
-    padding-right: 20px;
-    top: 53px;
-    padding: 0 20px 0 0;
-}
-#first-menu-option li>ul li{
-    padding: 0 40px;
-}
-#first-menu-option li>ul li:hover{
-    background-color: #1f6bb3;
-}
-#first-menu >ul li:last-of-type{
-    border: none;
-}
-#first-menu >ul li a{
-    font-size: 19px;
-}
-#first-menu{
-    display: inline-block;
-}
-#header{
-    display:inline-block;
-}
-#searchbox{
-float: right;
-}
-.inputsearch{
-    border: none;
-    background-color:#b2b2b210;
-    height: 30px;
-    font-family:  "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
-    font-size: 15px;
-    position: relative;
-    width: 120px;
-    float: right;
-}
-
-.search-btn{
-    border: none;
-    background-color: #b2b2b210;
-    padding:4px 10px;
-   
-    vertical-align: middle;
-    cursor: pointer;
-    position: relative;
-}
-
-
-.share-btn{
-   width: 28px;
-   height: 28px; 
+  
+  
+  /* header menuBottom ..............................................*/
+  
+  .menuBottom { 
+    width:984px ;
+    height: 47px;
+    background-color: rgb(83, 83, 83);
+  }
+    .menuBottom a {
+      padding: 15px 10px ; 
+      font-size: 13px;
+    }
+    .menuBottom li {
+      vertical-align: middle;
+      border-right: 2px solid rgb(110, 109, 109);
+    }
+    .menuBottom li:last-of-type {
+      border: none;
+    }
+  
+    .menuBottom li:hover a {
+      background-color: gray;
+    }
+  
+  /* header searchbox...............................................*/
+  
+  .searchbox {
+    /* background-color: rgb(255, 71, 194); */
+    width: 200px;
+    vertical-align: top;
+    margin-top: 19px;
+   }
+  .searchbox input {
+    color: #fff;
+   font-size: 15px;
+   width: 130px ;
+   height: 25px;
+   outline: none;
+   padding: 8px 15px 8px 10px ;
+  background-color: rgb(61, 60, 60) ;
+  border: none;
+  }
+  
+   .searchbox img:first-of-type {
+  margin-left: -40px;
+  vertical-align: middle;
+  } 
+  .searchbox img:last-of-type {
+   width: 21px;
    vertical-align: middle;
-   cursor:pointer ;
-}
-
-    #links{
-        text-decoration: none;
-        color: rgb(241, 241, 241);
-        background-color: rgba(138, 138, 138, 0.548);
-        padding: 6px 10px;
-        display: inline;
-        text-align: center;
-        font-size: 12px;
-        font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
-        margin: 200px;
-    }
-    .link1{
-        
-        border-right: 1px solid #fff;
-        
-        padding: 4px 6px;
-        font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
-        
-    }
-    .link2{
-        
-        border-right: 1px solid #fff;
-        
-        padding: 4px 6px;
-       font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
-       
-    }
-    .link3{
-        
-        border-right: 1px solid #fff;
-        
-        padding: 4px 6px;
-       font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
-       
-    }
-    .link4{
-        
-        border-right: 1px solid #fff;
-        
-        padding: 4px 6px;
-       font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
-       
-    }
-    .link5{
-        
-        border-right: 1px solid #fff;
-        
-        padding: 4px 6px;
-       font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
-    
-    }
-    .link6{
-        
-        border-right: 1px solid #fff;
-        
-        padding: 4px 6px;
-       font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
-       
-    }
-    .link7{
-        
-        border-right: 1px solid #fff;
-        
-        padding: 4px 6px;
-       font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
-       
-    }
-    .link8{
-        
-        border-right: 1px solid #fff;
-        
-        padding: 4px 6px;
-       font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
-       
-    }
-    .link9{
-     
-        
-        
-        padding: 4px 6px;
-       font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
-       
-    }
-  .link1 a:hover{
-    background-color: rgba(255, 255, 255, 0.500);
-   }
-   .link2 a:hover{
-    background-color: rgba(255, 255, 255, 0.500);
-   }
-   .link3 a:hover{
-    background-color: rgba(255, 255, 255, 0.500);
-   }
-   .link4 a:hover{
-    background-color: rgba(255, 255, 255, 0.500);
-   }
-   .link5 a:hover{
-    background-color: rgba(255, 255, 255, 0.500);
-   }
-   .link6a:hover{
-    background-color: rgba(255, 255, 255, 0.500);
-   }
-   .link7 a:hover{
-    background-color: rgba(255, 255, 255, 0.500);
-   }
-   .link8 a:hover{
-    background-color:  rgba(255, 255, 255, 0.500);
-   }
-   .link9 a:hover{
-    background-color: rgb(255, 255, 255);
-   }
-   #links a:hover{
-    background-color: gray;
-   }
+   margin-left: 8px;
+  }
+  

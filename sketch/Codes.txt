@@ -1,0 +1,49 @@
+html:
+
+head
+title
+body
+
+a (links).e >href
+span (short texts).e
+b (bold).e
+br (enter).e
+p (paragraphs).e
+i (italic).e
+div ( divisions).e
+id ( names for divisions/ is used less).e
+class ( names for divisions/ is used more).a
+img (pictures).e > src/alt.a
+svg ( mathematical pictures).e 
+form.e *******
+input.e (searchbox) > type/placeholder/value .a > text, password, submit..
+
+
+
+........................................................................
+style:
+color.e
+font-size.e
+font-family.e
+font-weight.e
+background.e
+background-color.e
+box-sizing.e
+width.e
+height.e
+margin.e
+padding.e
+border-radius.e
+opacity.e
+text-align.e
+vertical-align.e
+text-decoration.e >none/underline/dashed/overline.a
+text-decoration-style.e > solid/wavy/dashed/dotted/double.a
+text-decoratoin-thickness.e 
+text-decoration-color.e
+display.e > block/inline-block/inline.a
+position.e >absolute/reletive.a
+
+
+
+
