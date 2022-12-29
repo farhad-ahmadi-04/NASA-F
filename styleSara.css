@@ -2,7 +2,6 @@
   width: 1400px;
   height: 1800px;
   margin: 0 auto;
-  
   position: relative;
 }
 
@@ -100,6 +99,7 @@
 .main1-top-R div a {
   text-decoration: none;
   width: 500px;
+  color: #fff;
 }
 
 .main1-top-R div:last-of-type {
@@ -226,7 +226,7 @@
 .main2M a:last-of-type {
   position: absolute;
   left: 0;
-  bottom: 70px;
+  bottom: 71px;
   text-decoration: none;
   color: #fff;
   background-color: rgba(64, 64, 216, 0.685);
@@ -270,7 +270,7 @@
 .main2R a:last-of-type {
   position: absolute;
   left: 0;
-  bottom: 92px;
+  bottom: 95px;
   text-decoration: none;
   color: #fff;
   background-color: rgba(64, 64, 216, 0.685);
@@ -324,7 +324,7 @@
 .main3L1 a:last-of-type {
   position: absolute;
   left: 0;
-  bottom: 69px;
+  bottom: 72px;
   text-decoration: none;
   color: #fff;
   background-color: rgba(64, 64, 216, 0.685);
@@ -357,7 +357,7 @@
 .main3L2 a:last-of-type {
   position: absolute;
   left: 0;
-  bottom: 92px;
+  bottom: 95px;
   text-decoration: none;
   color: #fff;
   background-color: rgba(64, 64, 216, 0.685);
@@ -388,7 +388,7 @@
 .main3R1 a:last-of-type {
   position: absolute;
   left: 0;
-  bottom: 92px;
+  bottom: 95px;
   text-decoration: none;
   color: #fff;
   background-color: rgba(64, 64, 216, 0.685);
@@ -421,7 +421,7 @@
 .main3R2 a:last-of-type {
   position: absolute;
   left: 0;
-  bottom: 92px;
+  bottom: 95px;
   text-decoration: none;
   color: #fff;
   background-color: rgba(64, 64, 216, 0.685);
@@ -449,7 +449,7 @@
 }
 
 .more-stories:hover {
-  background-color: rgb(104, 104, 177);
+  background-color: rgba(146, 146, 208, 0.833);
   color: rgba(255, 255, 255, 0.84);
 }
 
@@ -491,7 +491,7 @@
   font-size: 14px;
 }
 .footer-link{
-  margin-top: 40px;
+  margin-top: 15px;
 }
 .footer-link a {
   float: right;
@@ -499,6 +499,7 @@
   font-weight: bold;
   margin-left: 30px;
   color: rgb(93, 128, 185);
+  text-decoration: none;
 }
 
 .footer-link a:hover {
