@@ -7,144 +7,153 @@ body{
 
 /* header */
 header {
-    background-image: url(img/back-header.jpg);
-    width: 1400px;
-    height: 160px ;
-    margin: 0 auto;
-  }
-  header div {
-    display: inline-block;
-  }
-  
-  .nasaLogo {
-    width: 160px;
-    text-align: center;
-    /* background-color: violet; */
-   
-  }
-  
-  
-  /* header menu....................................................... */
-  
-  .menu {
-     /* background-color: yellowgreen;   */
-    width: 960px;
-  }
-  .menu a {
-    text-decoration: none; 
-    color:white ;
-   }
-   .menu ul { 
-    padding-left: 0px;
-   list-style: none;
-  }
-  .menuTop>li,
-   .menuBottom>li
-   {
-     display:inline-block ; 
-     border-right: 2px solid rgb(92, 91, 91);
-   }
-  
-  /* header menuTop............................................. */
-  
-  .menuTop {
-    /* background-color: thistle; */
-    width: 1000px;
-  }
-  .menuTop a {
-    padding: 24px 12px ; 
-    font-size: 18px; 
-  }
-   .menuTop>li:hover a{
-     background-color: rgb(25, 79, 179);
-   }
-   .menuTop>li:last-of-type {
-     border: none;
-   }
-   
-  
-  /* header menu li .................................................*/
-  
-  .menuTop>li:hover ul{
-    visibility: visible;
-    background-color: rgb(25, 79, 179);
-    margin-right: 0px;
-  }
-    .submenu-Missions {
-      visibility: hidden;
-    } 
-    .submenu-Missions li {
-      padding: 1px 10px ;
-      vertical-align: middle;
-    }
-    .submenu-Missions a {
-      font-size: 12px;
-      padding: 0px;
-    }
-    .submenu-Missions hr {
-      margin: 0px;
-    }
-    .submenu-Missions li:hover,
-    .submenu-Missions li:hover a 
-     {
-      background-color: rgb(5, 44, 172);
-    }
-    .submenu-Missions li:first-of-type {
-      margin-top: 20px;
-    }
-  
-    
-  
-  
-  /* header menuBottom ..............................................*/
-  
-  .menuBottom { 
-    width:984px ;
-    height: 47px;
-    background-color: rgb(83, 83, 83);
-  }
-    .menuBottom a {
-      padding: 15px 10px ; 
-      font-size: 13px;
-    }
-    .menuBottom li {
-      vertical-align: middle;
-      border-right: 2px solid rgb(110, 109, 109);
-    }
-    .menuBottom li:last-of-type {
-      border: none;
-    }
-  
-    .menuBottom li:hover a {
-      background-color: gray;
-    }
-  
-  /* header searchbox...............................................*/
-  
-  .searchbox {
-    /* background-color: rgb(255, 71, 194); */
-    width: 200px;
-    vertical-align: top;
-    margin-top: 19px;
-   }
-  .searchbox input {
-    color: #fff;
-   font-size: 15px;
-   width: 130px ;
-   height: 25px;
-   outline: none;
-   padding: 8px 15px 8px 10px ;
-  background-color: rgb(61, 60, 60) ;
-  border: none;
-  }
-  
-   .searchbox img:first-of-type {
-  margin-left: -40px;
-  vertical-align: middle;
+  background-image: url(img/back-header.jpg);
+  width: 1400px;
+  height: 160px ;
+  margin: 0 auto;
+}
+header div {
+  display: inline-block;
+}
+
+.nasaLogo {
+  width: 160px;
+  text-align: center;
+  /* background-color: violet; */
+ 
+}
+
+
+/* header menu....................................................... */
+
+.menu {
+   /* background-color: yellowgreen;   */
+  width: 960px;
+}
+.menu a {
+  text-decoration: none; 
+  color:white ;
+ }
+ .menu ul { 
+  padding-left: 0px;
+ list-style: none;
+}
+.menuTop>li,
+ .menuBottom>li
+ {
+   display:inline-block ; 
+   border-right: 2px solid rgb(92, 91, 91);
+ }
+
+/* header menuTop............................................. */
+
+.menuTop {
+  /* background-color: thistle; */
+  width: 1000px;
+  margin-left: 90px;
+}
+.menuTop a {
+  padding: 24px 12px ; 
+  font-size: 18px; 
+}
+ .menuTop>li:hover a{
+   background-color: rgb(25, 79, 179);
+ }
+ .menuTop>li:last-of-type {
+   border: none;
+ }
+ 
+
+/* header menu li .................................................*/
+
+.menuTop>li:hover ul{
+  visibility: visible;
+  background-color: rgb(25, 79, 179);
+  margin-right: 0px;
+}
+  .submenu {
+    z-index: 1;
+    position: absolute;
+    visibility: hidden;
   } 
-  .searchbox img:last-of-type {
-   width: 21px;
-   vertical-align: middle;
-   margin-left: 8px;
+  .submenu li {
+    position: relative;
+    padding: 1px 10px ;
+    vertical-align: middle;
   }
+  .submenu a {
+    font-size: 12px;
+    padding: 0px;
+  }
+  .submenu hr {
+    margin: 0px;
+  }
+  .submenu li:hover,
+  .submenu li:hover a 
+   {
+    background-color: rgb(5, 44, 172);
+  }
+  .submenu li:first-of-type {
+    margin-top: 20px;
+  }
+
   
+
+
+/* header menuBottom ..............................................*/
+
+.menuBottom { 
+  width:984px ;
+  height: 47px;
+  background-color: rgb(83, 83, 83);
+}
+  .menuBottom a {
+    padding: 15px 10px ; 
+    font-size: 13px;
+  }
+  .menuBottom li {
+    vertical-align: middle;
+    border-right: 2px solid rgb(110, 109, 109);
+  }
+  .menuBottom li:last-of-type {
+    border: none;
+  }
+
+  .menuBottom li:hover a {
+    background-color: gray;
+  }
+
+/* header searchbox...............................................*/
+
+.searchbox {
+  /* background-color: rgb(255, 71, 194); */
+  width: 200px;
+  vertical-align: top;
+  margin-top: 19px;
+ }
+.searchbox input {
+  color: #fff;
+ font-size: 15px;
+ width: 130px ;
+ height: 25px;
+ outline: none;
+ padding: 8px 15px 8px 10px ;
+background-color: rgb(61, 60, 60) ;
+border: none;
+}
+
+.searchbox input:focus {
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
+ .searchbox img:first-of-type {
+margin-left: -40px;
+vertical-align: middle;
+} 
+.searchbox img:last-of-type {
+ width: 21px;
+ vertical-align: middle;
+ margin-left: 8px;
+}
+
