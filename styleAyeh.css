@@ -112,7 +112,7 @@ header div {
     font-size: 13px;
   }
   .menuBottom li {
-    vertical-align: middle;
+    vertical-align:middle;
     border-right: 2px solid rgb(110, 109, 109);
   }
   .menuBottom li:last-of-type {
