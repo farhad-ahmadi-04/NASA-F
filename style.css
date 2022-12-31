@@ -11,10 +11,10 @@ body{
 }
 
 
-/* header */
+/* header .............................................................*/
 header {
 background-image: url(img/back-header.jpg);
-width: 1400px;
+width: 1340px;
 height: 160px ;
 margin: 0 auto;
 }
@@ -23,9 +23,9 @@ display: inline-block;
 }
 
 .nasaLogo {
-width: 160px;
+width: 120px;
 text-align: center;
-/* background-color: violet; */
+/* background-color: violet;  */
 
 }
 
@@ -51,7 +51,7 @@ display:inline-block ;
 border-right: 2px solid rgb(92, 91, 91);
 }
 
-/* header menuTop............................................. */
+/* header menuTop..................................................... */
 
 .menuTop {
 /* background-color: thistle; */
@@ -70,7 +70,7 @@ border: none;
 }
 
 
-/* header menu li .................................................*/
+/* header menu li .....................................................*/
 
 .menuTop>li:hover ul{
 visibility: visible;
@@ -106,7 +106,7 @@ margin-right: 0px;
 
 
 
-/* header menuBottom ..............................................*/
+/* header menuBottom ..................................................*/
 
 .menuBottom { 
 width:984px ;
@@ -129,7 +129,7 @@ background-color: rgb(83, 83, 83);
  background-color: gray;
 }
 
-/* header searchbox...............................................*/
+/* header searchbox...................................................*/
 
 .searchbox {
 /* background-color: rgb(255, 71, 194); */
@@ -398,7 +398,7 @@ display: inline-block;
  margin-top: 30px;
 }
 #more-stories input{
- width: 1360px;
+ width: 1320px;
  padding: 20px;
  background-color: rgb(67, 67, 234);
  color: #fff;
@@ -413,7 +413,7 @@ display: inline-block;
 #footer {
  padding: 20px 8px 0 8px;
  font-family: Arial, Helvetica, sans-serif;
- width: 1350px;
+ width: 1310px;
  position: relative;
 }
 
