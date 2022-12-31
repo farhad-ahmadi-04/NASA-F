@@ -17,7 +17,11 @@ background-image: url(img/back-header.jpg);
 width: 1340px;
 height: 160px ;
 margin: 0 auto;
+position: fixed;
+top: 0;
+z-index: 1;
 }
+
 header div {
 display: inline-block;
 }
@@ -26,9 +30,7 @@ display: inline-block;
 width: 120px;
 text-align: center;
 /* background-color: violet;  */
-
 }
-
 
 /* header menu....................................................... */
 
@@ -70,7 +72,7 @@ border: none;
 }
 
 
-/* header menu li .....................................................*/
+/* header submenu.....................................................*/
 
 .menuTop>li:hover ul{
 visibility: visible;
@@ -78,7 +80,6 @@ background-color: rgb(25, 79, 179);
 margin-right: 0px;
 }
 .submenu {
- z-index: 1;
  position: absolute;
  visibility: hidden;
 } 
@@ -166,6 +167,10 @@ margin-left: 8px;
 
 
 /* main & main1.................................................... */
+
+#main {
+  margin-top: 150px;
+}
 
 .main1 a,
 .main2 a,
